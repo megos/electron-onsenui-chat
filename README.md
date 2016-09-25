@@ -13,3 +13,5 @@ Onsen UI 2.0をElectronで使ったチャットサンプル
 ## Install
 ``` $ npm install ```
 
+## Licence
+- MIT
