@@ -1,7 +1,7 @@
 {
-  "name": "electron-onsen-ui-chat",
+  "name": "electron-onsenui-chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Electron Onsen UI 2.0 Chat Sample",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -10,8 +10,15 @@
     "build": "jsx --harmony client/jsx/ client/build",
     "run": "jsx --harmony client/jsx/ client/build && electron ."
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megos/electron-onsenui-chat.git"
+  },
+  "author": "megos",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megos/electron-onsenui-chat/issues"
+  },
   "dependencies": {
     "onsenui": "^2.0.0",
     "react": "^15.3.1",
