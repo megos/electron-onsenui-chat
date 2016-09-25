@@ -8,6 +8,7 @@ Onsen UI 2.0をElectronで使ったチャットサンプル
 #### Server
 ``` $ node server/server.js ```
 #### Client
+``` $ electron . ```
 
 ## Install
 ``` $ npm install ```
