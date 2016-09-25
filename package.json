@@ -1,0 +1,23 @@
+{
+  "name": "electron-onsen-ui-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "server-start": "forever start server/server.js",
+    "server-stop": "forever stop server/server.js",
+    "build": "jsx --harmony client/jsx/ client/build",
+    "run": "jsx --harmony client/jsx/ client/build && electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "onsenui": "^2.0.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-onsenui": "^1.0.0",
+    "socket.io": "^1.3.6",
+    "socket.io-client": "^1.3.6"
+  }
+}

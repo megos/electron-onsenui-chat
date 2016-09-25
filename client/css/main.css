@@ -1,0 +1,39 @@
+.login_form {
+  text-align: center;
+}
+
+.form_area {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+
+.user_name {
+  color: gray;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.submit_btn_col {
+  text-align: center;
+}
+
+.submit_btn {
+  display: block;
+  line-height: 36px;
+  width: 100%;
+}
+
+.message_list {
+  margin-top: 44px;
+}
+
+.message_item {
+  word-break: break-all;
+}
+
+.selectable {
+  -webkit-user-select: all;
+}
